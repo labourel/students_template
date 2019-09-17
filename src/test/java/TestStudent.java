@@ -35,9 +35,9 @@ class TestStudent {
 
   @Test
   void testGetAverageGrade() {
-    assertEquals(TestGrade.twenty, arnaudLabourel.getAverageGrade());
-    assertEquals(new Grade(5), pierreKiroul.getAverageGrade());
-    assertEquals(new Grade(15), paulCalcul.getAverageGrade());
+    assertEquals(TestGrade.twenty, arnaudLabourel.averageGrade());
+    assertEquals(new Grade(5), pierreKiroul.averageGrade());
+    assertEquals(new Grade(15), paulCalcul.averageGrade());
   }
 
   @Test

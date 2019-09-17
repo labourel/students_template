@@ -34,7 +34,7 @@ public class Student {
   }
 
   /**
-   * Returns a string representation of the student in the format fist name last name.
+   * Returns a string representation of the student in the format first name last name.
    * @return a string representation of the student
    */
   @Override
@@ -59,7 +59,7 @@ public class Student {
    *
    * @return the average grade of the student
    */
-  public Grade getAverageGrade() {
+  public Grade averageGrade() {
     // TODO : change code
     return null;
   }

@@ -25,14 +25,6 @@ class TestGrade {
   }
 
   @Test
-  void testEquals(){
-    assertEquals(new Grade(10), ten);
-    assertEquals(new Grade(0), zero);
-    assertNotEquals(new Grade(10), zero);
-    assertNotEquals(new Grade(0), twenty);
-  }
-
-  @Test
   void testAverageGrade(){
     assertEquals(ten, Grade.averageGrade(grades));
     assertEquals(zero, Grade.averageGrade(gradesZero));
