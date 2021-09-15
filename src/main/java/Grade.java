@@ -48,8 +48,11 @@ public class Grade {
    * @return a grade corresponding to the mean of grade in {@code grades}
    */
   public static Grade averageGrade(List<Grade> grades){
-    // TODO : change code
-    return null;
+    double sumOfGradeValues = 0.;
+    for(Grade grade : grades){
+      sumOfGradeValues += grade.getValue();
+    }
+    return new Grade(sumOfGradeValues/grades.size());
   }
 
   /**
